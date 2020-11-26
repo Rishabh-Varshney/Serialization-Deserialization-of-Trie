@@ -1,0 +1,25 @@
+//Testcase for 1.Serialisation
+
+Ababa
+Ababdeh
+Achene
+Acidalium
+#END#
+
+
+
+//Testcase for 2.Deserialisation
+
+Acidalium]>>>>>>>hene]>>>>>babdeh]>>>a]>>>>>>
+
+//Testcase for 3.Other Features
+
+Ababa
+Ababdeh
+Achene
+Acidalium
+#END#
+
+
+b) Ac
+c) Achene

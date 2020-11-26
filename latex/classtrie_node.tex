@@ -1,0 +1,54 @@
+\hypertarget{classtrie_node}{}\doxysection{trie\+Node Class Reference}
+\label{classtrie_node}\index{trieNode@{trieNode}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classtrie_node_a73694106732ced92948f9b8b4dcd955b}{trie\+Node}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classtrie_node_ab1fced27488ea1cd56c53e00e7b763c2}{is\+Valid\+Word}}
+\item 
+int \mbox{\hyperlink{classtrie_node_a8cf6d1b981ba3cc82d95f7f1565e9afd}{number\+Of\+Words\+With\+Prefix}}
+\item 
+unordered\+\_\+map$<$ char, \mbox{\hyperlink{classtrie_node}{trie\+Node}} $\ast$ $>$ \mbox{\hyperlink{classtrie_node_a8432d6f8040f8a5d6c485cff758478c5}{children}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This structure is used to represent a node of the trie. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtrie_node_a73694106732ced92948f9b8b4dcd955b}\label{classtrie_node_a73694106732ced92948f9b8b4dcd955b}} 
+\index{trieNode@{trieNode}!trieNode@{trieNode}}
+\index{trieNode@{trieNode}!trieNode@{trieNode}}
+\doxysubsubsection{\texorpdfstring{trieNode()}{trieNode()}}
+{\footnotesize\ttfamily trie\+Node\+::trie\+Node (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+this constructor used to create a node 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classtrie_node_a8432d6f8040f8a5d6c485cff758478c5}\label{classtrie_node_a8432d6f8040f8a5d6c485cff758478c5}} 
+\index{trieNode@{trieNode}!children@{children}}
+\index{children@{children}!trieNode@{trieNode}}
+\doxysubsubsection{\texorpdfstring{children}{children}}
+{\footnotesize\ttfamily unordered\+\_\+map$<$char, \mbox{\hyperlink{classtrie_node}{trie\+Node}}$\ast$$>$ trie\+Node\+::children}
+
+represent all child nodes of this node. \mbox{\Hypertarget{classtrie_node_ab1fced27488ea1cd56c53e00e7b763c2}\label{classtrie_node_ab1fced27488ea1cd56c53e00e7b763c2}} 
+\index{trieNode@{trieNode}!isValidWord@{isValidWord}}
+\index{isValidWord@{isValidWord}!trieNode@{trieNode}}
+\doxysubsubsection{\texorpdfstring{isValidWord}{isValidWord}}
+{\footnotesize\ttfamily bool trie\+Node\+::is\+Valid\+Word}
+
+indicates if the word ending here is a valid word. \mbox{\Hypertarget{classtrie_node_a8cf6d1b981ba3cc82d95f7f1565e9afd}\label{classtrie_node_a8cf6d1b981ba3cc82d95f7f1565e9afd}} 
+\index{trieNode@{trieNode}!numberOfWordsWithPrefix@{numberOfWordsWithPrefix}}
+\index{numberOfWordsWithPrefix@{numberOfWordsWithPrefix}!trieNode@{trieNode}}
+\doxysubsubsection{\texorpdfstring{numberOfWordsWithPrefix}{numberOfWordsWithPrefix}}
+{\footnotesize\ttfamily int trie\+Node\+::number\+Of\+Words\+With\+Prefix}
+
+number of words have the prefix that is represented by this node. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+code.\+cpp\end{DoxyCompactItemize}

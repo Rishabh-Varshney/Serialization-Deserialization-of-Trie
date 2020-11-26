@@ -1,0 +1,91 @@
+\hypertarget{class_trie_d_s}{}\doxysection{Trie\+DS Class Reference}
+\label{class_trie_d_s}\index{TrieDS@{TrieDS}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_trie_d_s_a57bb73eec59940d03078e4e265097f0e}{Trie\+DS}} ()
+\item 
+\mbox{\hyperlink{class_trie_d_s_aea9a1daa20d6723fe646599b2462adec}{Trie\+DS}} (const vector$<$ string $>$ \&words)
+\item 
+\mbox{\hyperlink{class_trie_d_s_a5b0cce665cb39ec8a1c6d795ac7d4ea0}{Trie\+DS}} (string \&serial\+Trie)
+\item 
+void \mbox{\hyperlink{class_trie_d_s_a4fb2570a407496757a86f95246165786}{insert\+Word}} (const string \&word)
+\item 
+int \mbox{\hyperlink{class_trie_d_s_ae1392b35284e1d6ef21437b170ee0c05}{number\+Of\+Words\+In\+Trie}} ()
+\item 
+vector$<$ string $>$ \mbox{\hyperlink{class_trie_d_s_ab0b459387d0d6924a2fab75831c19c26}{trie\+To\+List}} ()
+\item 
+bool \mbox{\hyperlink{class_trie_d_s_aa1b7631c08268ad8fcc067b56a670f39}{find\+Word}} (const string \&word)
+\item 
+int \mbox{\hyperlink{class_trie_d_s_a4c82b448ae91ccd826e29fd778c6b588}{words\+With\+The\+Prefix}} (const string \&prefix, int called\+By=1)
+\item 
+string \mbox{\hyperlink{class_trie_d_s_acd127e88bce9246f565c4c86bde3412e}{trie\+To\+String}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents a generic trie data structure 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_trie_d_s_a57bb73eec59940d03078e4e265097f0e}\label{class_trie_d_s_a57bb73eec59940d03078e4e265097f0e}} 
+\index{TrieDS@{TrieDS}!TrieDS@{TrieDS}}
+\index{TrieDS@{TrieDS}!TrieDS@{TrieDS}}
+\doxysubsubsection{\texorpdfstring{TrieDS()}{TrieDS()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Trie\+D\+S\+::\+Trie\+DS (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+used to construct an empty trie. \mbox{\Hypertarget{class_trie_d_s_aea9a1daa20d6723fe646599b2462adec}\label{class_trie_d_s_aea9a1daa20d6723fe646599b2462adec}} 
+\index{TrieDS@{TrieDS}!TrieDS@{TrieDS}}
+\index{TrieDS@{TrieDS}!TrieDS@{TrieDS}}
+\doxysubsubsection{\texorpdfstring{TrieDS()}{TrieDS()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Trie\+D\+S\+::\+Trie\+DS (\begin{DoxyParamCaption}\item[{const vector$<$ string $>$ \&}]{words }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Used to construct a trie initialized with a list of words. \mbox{\Hypertarget{class_trie_d_s_a5b0cce665cb39ec8a1c6d795ac7d4ea0}\label{class_trie_d_s_a5b0cce665cb39ec8a1c6d795ac7d4ea0}} 
+\index{TrieDS@{TrieDS}!TrieDS@{TrieDS}}
+\index{TrieDS@{TrieDS}!TrieDS@{TrieDS}}
+\doxysubsubsection{\texorpdfstring{TrieDS()}{TrieDS()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Trie\+D\+S\+::\+Trie\+DS (\begin{DoxyParamCaption}\item[{string \&}]{serial\+Trie }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Used to construct a trie using an existing trie given in serial format. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_trie_d_s_aa1b7631c08268ad8fcc067b56a670f39}\label{class_trie_d_s_aa1b7631c08268ad8fcc067b56a670f39}} 
+\index{TrieDS@{TrieDS}!findWord@{findWord}}
+\index{findWord@{findWord}!TrieDS@{TrieDS}}
+\doxysubsubsection{\texorpdfstring{findWord()}{findWord()}}
+{\footnotesize\ttfamily bool Trie\+D\+S\+::find\+Word (\begin{DoxyParamCaption}\item[{const string \&}]{word }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+check to see if a word is present in the trie. \mbox{\Hypertarget{class_trie_d_s_a4fb2570a407496757a86f95246165786}\label{class_trie_d_s_a4fb2570a407496757a86f95246165786}} 
+\index{TrieDS@{TrieDS}!insertWord@{insertWord}}
+\index{insertWord@{insertWord}!TrieDS@{TrieDS}}
+\doxysubsubsection{\texorpdfstring{insertWord()}{insertWord()}}
+{\footnotesize\ttfamily void Trie\+D\+S\+::insert\+Word (\begin{DoxyParamCaption}\item[{const string \&}]{word }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+used to insert a word in the trie. \mbox{\Hypertarget{class_trie_d_s_ae1392b35284e1d6ef21437b170ee0c05}\label{class_trie_d_s_ae1392b35284e1d6ef21437b170ee0c05}} 
+\index{TrieDS@{TrieDS}!numberOfWordsInTrie@{numberOfWordsInTrie}}
+\index{numberOfWordsInTrie@{numberOfWordsInTrie}!TrieDS@{TrieDS}}
+\doxysubsubsection{\texorpdfstring{numberOfWordsInTrie()}{numberOfWordsInTrie()}}
+{\footnotesize\ttfamily int Trie\+D\+S\+::number\+Of\+Words\+In\+Trie (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+gives the total number of words currently present in the trie. \mbox{\Hypertarget{class_trie_d_s_ab0b459387d0d6924a2fab75831c19c26}\label{class_trie_d_s_ab0b459387d0d6924a2fab75831c19c26}} 
+\index{TrieDS@{TrieDS}!trieToList@{trieToList}}
+\index{trieToList@{trieToList}!TrieDS@{TrieDS}}
+\doxysubsubsection{\texorpdfstring{trieToList()}{trieToList()}}
+{\footnotesize\ttfamily vector$<$string$>$ Trie\+D\+S\+::trie\+To\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Used to convert the trie to a list of words(serialization). \mbox{\Hypertarget{class_trie_d_s_acd127e88bce9246f565c4c86bde3412e}\label{class_trie_d_s_acd127e88bce9246f565c4c86bde3412e}} 
+\index{TrieDS@{TrieDS}!trieToString@{trieToString}}
+\index{trieToString@{trieToString}!TrieDS@{TrieDS}}
+\doxysubsubsection{\texorpdfstring{trieToString()}{trieToString()}}
+{\footnotesize\ttfamily string Trie\+D\+S\+::trie\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Function To call Trie\+To\+String-\/which builds\+Serial\+Tree \mbox{\Hypertarget{class_trie_d_s_a4c82b448ae91ccd826e29fd778c6b588}\label{class_trie_d_s_a4c82b448ae91ccd826e29fd778c6b588}} 
+\index{TrieDS@{TrieDS}!wordsWithThePrefix@{wordsWithThePrefix}}
+\index{wordsWithThePrefix@{wordsWithThePrefix}!TrieDS@{TrieDS}}
+\doxysubsubsection{\texorpdfstring{wordsWithThePrefix()}{wordsWithThePrefix()}}
+{\footnotesize\ttfamily int Trie\+D\+S\+::words\+With\+The\+Prefix (\begin{DoxyParamCaption}\item[{const string \&}]{prefix,  }\item[{int}]{called\+By = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Number of words in the trie the have a given prefix. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+code.\+cpp\end{DoxyCompactItemize}
