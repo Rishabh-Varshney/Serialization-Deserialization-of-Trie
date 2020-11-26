@@ -9,14 +9,15 @@ Created a C++ library of Trie Data Structure which can do the following tasks:
 4. Find out how many words in the trie that we made before have a given prefix
 5. For all the words in the text file given , see if the word is present in the trie
 6. Serialize the trie, that is,  to convert the trie to a string .
-7. Finally ,Create a trie by making the use of a string representing the trie(Deserialization)
+7. Finally, Create a trie by making the use of a string representing the trie(Deserialization)
 
 Team-Details:
-
-●	Rajat Vohra 							2017B4AA0966H
-●	Rishabh Varshney						2017B4A31124H
-●	Vrinda									2017B1A31316H
-●	Muskan Nahata							2017B4A41747H
+Member | College Id
+------------ | -------------
+Rishabh Varshney | 2017B4A31124H
+Rajat Vohra   | 2017B4AA0966H
+Vrinda | 2017B1A31316H
+Muskan Nahata | 2017B4A41747H
 
 
 
