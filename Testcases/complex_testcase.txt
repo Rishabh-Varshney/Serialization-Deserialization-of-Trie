@@ -1,5 +1,7 @@
 //Testcase for 1.Serialisation
 
+Input:
+
 A.
 A.A.A.
 A.B.
@@ -99,14 +101,128 @@ ophthalmencephalon
 ophthalmetrical
 ophthalmy
 #END#
+
+Output:
+
+Serialised Form : 
+ophthalm]y]>etrical]>>>>>>ncephalon]>>>>>>>>>ctomy]>>>>>>atrophia]>>>>>>>lgic]>>>>>-]>>itis]>>>>aiater]>>>>>>>>>>ryon]>>>esiophobia]>>>>>>>>>>>iuroid]ean]>>>>>>id]>>an]>>>>>>>>Ophrys]>>>iuroidea]>>>>>ida]>>>>cus]>>>>>>>>Blossom]>>burg]>>>>>>>>>Acorus]>>>>>A]RC]>>A]>>argau]>>>en]>>a]u]>>>>5]>-1]>>1]>kaska]>>>n]ke]>>ia]ceae]>>>>>>ekunik]>>>>>>>>>4]>/V]>O]>P]>F]>C]>>.]W.O.L.]>>>>>>V.]>>U.]C.]>>>>R.C.S.]>>>>>>I.]D.]>>A.]>>>>H.]>>G.]>>D.]C.]>>>>N.]>>C.]>>M.]D.G.]>>>>A.]>>>>B.]A.]>>>>F.]A.M.]>>>>>>L.]P.]>>>>A.A.]>>>>>>blossome]>bill]>>>>-crested]>>>>>>>billed]>>>>>ordered]>>>>>>>earing]>>>>>>>>>>>my]>>>re]>>>>>acost]>mist]ic]>>>m]>>c]>>>>rn]'s]>>-shell]>>>>>>s]>ed]>>>>>>kasha]>>a]>>roa]>>>>>ardwolves]>>>f]>>>>vark]s]>>>>>>>>.w.]>>r.]>>p.]>>>>>
+
 
 
 
 //Testcase for 2.Deserialisation
 
+Input:
+
 ophthalm]y]>etrical]>>>>>>ncephalon]>>>>>>>>>ctomy]>>>>>>atrophia]>>>>>>>lgic]>>>>>-]>>itis]>>>>aiater]>>>>>>>>>>ryon]>>>esiophobia]>>>>>>>>>>>iuroid]ean]>>>>>>id]>>an]>>>>>>>>Ophrys]>>>iuroidea]>>>>>ida]>>>>cus]>>>>>>>>Blossom]>>burg]>>>>>>>>>Acorus]>>>>>A]RC]>>A]>>argau]>>>en]>>a]u]>>>>5]>-1]>>1]>kaska]>>>n]ke]>>ia]ceae]>>>>>>ekunik]>>>>>>>>>4]>/V]>O]>P]>F]>C]>>.]W.O.L.]>>>>>>V.]>>U.]C.]>>>>R.C.S.]>>>>>>I.]D.]>>A.]>>>>H.]>>G.]>>D.]C.]>>>>N.]>>C.]>>M.]D.G.]>>>>A.]>>>>B.]A.]>>>>F.]A.M.]>>>>>>L.]P.]>>>>A.A.]>>>>>>blossome]>bill]>>>>-crested]>>>>>>>billed]>>>>>ordered]>>>>>>>earing]>>>>>>>>>>>my]>>>re]>>>>>acost]>mist]ic]>>>m]>>c]>>>>rn]'s]>>-shell]>>>>>>s]>ed]>>>>>>kasha]>>a]>>roa]>>>>>ardwolves]>>>f]>>>>vark]s]>>>>>>>>.w.]>>r.]>>p.]>>>>>
 
+Output:
+
+Total Number of Words : 98
+a.p.
+a.r.
+a.w.
+aardvark
+aardvarks
+aardwolf
+aardwolves
+akaroa
+akasa
+akasha
+acorn
+acorned
+acorns
+acorn-shell
+acorn's
+acosmic
+acosmism
+acosmist
+acosmistic
+acost
+blore
+blosmy
+blossom-bearing
+blossom-bordered
+blossom-billed
+blossom-crested
+blossombill
+blossome
+A.
+A.A.A.
+A.L.
+A.L.P.
+A.F.
+A.F.A.M.
+A.B.
+A.B.A.
+A.M.
+A.M.A.
+A.M.D.G.
+A.C.
+A.N.
+A.D.
+A.D.C.
+A.H.
+A.I.
+A.I.A.
+A.I.D.
+A.U.
+A.U.C.
+A.V.
+A.G.
+A.R.C.S.
+A.W.O.L.
+A/C
+A/F
+A/P
+A/O
+A/V
+A4
+Akan
+Akanekunik
+Akania
+Akaniaceae
+Akanke
+Akaska
+A1
+A5
+Aara
+Aarau
+Aaren
+Aargau
+A-1
+AA
+AAA
+AARC
+Acorus
+Ophiucus
+Ophiurida
+Ophiuroidea
+Ophrys
+Blossburg
+Blossom
+ophiuran
+ophiurid
+ophiuroid
+ophiuroidean
+ophresiophobia
+ophryon
+ophthalaiater
+ophthalitis
+ophthalm
+ophthalm-
+ophthalmalgic
+ophthalmatrophia
+ophthalmectomy
+ophthalmencephalon
+ophthalmetrical
+ophthalmy
+
+
+
 //Testcase for 3.Other Features
+
+Initial Input:
 
 A.
 A.A.A.
@@ -208,6 +324,13 @@ ophthalmetrical
 ophthalmy
 #END#
 
+Input:
 
-b) bl
-c) ophthalmencephalon
+1-
+Output: 98
+
+2- bl
+Output: 8
+
+3- ophthalaiater
+Output: Present

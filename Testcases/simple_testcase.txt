@@ -1,18 +1,41 @@
 //Testcase for 1.Serialisation
 
+Input:
+
 Ababa
 Ababdeh
 Achene
 Acidalium
 #END#
+
+Output:
+
+Serialised Form :
+Acidalium]>>>>>>>hene]>>>>>babdeh]>>>a]>>>>>>
+
 
 
 
 //Testcase for 2.Deserialisation
 
+Input:
+
 Acidalium]>>>>>>>hene]>>>>>babdeh]>>>a]>>>>>>
 
+Output:
+
+Total Number of Words : 4
+Ababa
+Ababdeh
+Achene
+Acidalium
+
+
+
+
 //Testcase for 3.Other Features
+
+Initial Input:
 
 Ababa
 Ababdeh
@@ -20,6 +43,13 @@ Achene
 Acidalium
 #END#
 
+Input:
 
-b) Ac
-c) Achene
+1-
+Output:4
+
+2- Ac
+Output:2
+
+3- Achene
+Output:Present
